@@ -1,0 +1,11 @@
+name: RAI # Name of the environment
+channels:
+  - defaults
+  - conda-forge # Additional packages
+dependencies:
+  - python=3.11 # Specify Python version
+  - numpy # Conda packages
+  - pandas
+  - pip # Include pip to install pip packages
+  - pip:
+      - raiwidgets
