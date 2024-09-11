@@ -6,6 +6,8 @@ dependencies:
   - python=3.11 # Specify Python version
   - numpy # Conda packages
   - pandas
+  - jupyter
+  - interpret-community
   - pip # Include pip to install pip packages
   - pip:
       - raiwidgets
