@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - jupyter
   - interpret-community
+  - gevent-websocket
   - pip # Include pip to install pip packages
   - pip:
       - raiwidgets
