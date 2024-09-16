@@ -1,8 +1,16 @@
-name: RAI
+name: RAI # Name of the environment
 channels:
-  - conda-forge
+  - defaults
+  - conda-forge # Additional packages
 dependencies:
-  - python=3.11.10
-  - pip=24.2
+  - python=3.11.10 # Specify Python version
+  - numpy=1.26.2 # Conda packages
+  - pandas=1.5.3
+  - jupyter=1.1.1
+  - interpret-community=0.31.0
+  - gevent-websocket=0.10.1
+  - pip=24.2 # Include pip to install pip packages
+  - shap=0.43.0
+  - scikit-learn=1.5.1
   - pip:
-      - -r requirements.txt
+      - raiwidgets==0.36.0

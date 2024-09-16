@@ -1,8 +1,0 @@
-numpy==1.26.2
-pandas==1.5.3
-jupyter==1.1.1
-interpret-community==0.31.0
-gevent-websocket==0.10.1
-shap==0.43.0
-scikit-learn==1.5.1
-raiwidgets==0.36.0
